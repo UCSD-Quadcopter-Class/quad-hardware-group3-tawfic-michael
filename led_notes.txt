@@ -1,0 +1,4 @@
+We used the green LED's provided in the starting quadparts library. Since their
+reverse voltage is 5V, we didn't have to add any resistors in series with them,
+and could connect them straight from battery to ground. Their datasheet is
+LTST-C170GKT.pdf
