@@ -1,0 +1,23 @@
+filter caps in motor controller sohuld 0.1uF
+MOS fet symbol should be a transistor symbol.  Yours matches the package, but that doesn't make for an easy-to-read schematic.
+
+VCC should be nameed VBAT
+
+Your breakout header has two connection to GND and none to BAT_GND
+
+THe filter cap on the input of the voltage regulator should be connected to BAT_GND
+
+Several pins that need to be connected on the IMU are not.  Read the data sheet section about what each pins does.
+
+The GND symblos should always point downward.  
+
+Your custom LEDs are going to burn out without a resistor.
+
+why 5.1KOhm for pull ups on SDA/SCL?
+
+There's a label for PWM-PB5 near your uController, but I don't see where the net is.
+
+
+
+
+
