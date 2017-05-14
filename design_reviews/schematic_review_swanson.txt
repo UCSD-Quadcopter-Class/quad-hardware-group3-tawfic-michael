@@ -17,7 +17,14 @@ why 5.1KOhm for pull ups on SDA/SCL?
 
 There's a label for PWM-PB5 near your uController, but I don't see where the net is.
 
+The TX and RX lines are backwards on your FTDI and serial ports.
 
+CLKI and TST on your microcontroller need to be grounded.
+
+you are using the wrong capacitors in your motor drivers.  Use the ones from prebuilt.  Same goes for the resistors.
+
+you have some badly-misplaced net labels. For instance, the C3 seems to be attached 3V, but it is not.  For a simila reason, your microcontroller is not connected to power.
+q
 
 
 
