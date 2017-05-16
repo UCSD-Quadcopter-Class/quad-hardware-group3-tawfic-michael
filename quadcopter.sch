@@ -175,540 +175,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="SparkFun-Aesthetics">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="DGND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="DGND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-DigitalIC">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find all manner of digital ICs- microcontrollers, memory chips, logic chips, FPGAs, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="QFN-64">
-<wire x1="-4.5" y1="-4.5" x2="4.5" y2="-4.5" width="0.09" layer="51"/>
-<wire x1="4.5" y1="-4.5" x2="4.5" y2="4.5" width="0.09" layer="51"/>
-<wire x1="4.5" y1="4.5" x2="-4.5" y2="4.5" width="0.09" layer="51"/>
-<wire x1="-4.5" y1="4.5" x2="-4.5" y2="-4.5" width="0.09" layer="51"/>
-<wire x1="-4.5" y1="4.2" x2="-4.2" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="4.5" x2="4.2" y2="4.5" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="4.5" x2="4.5" y2="4.2" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="-4.5" x2="4.5" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="4.5" y1="-4.5" x2="4.2" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="-4.2" width="0.2032" layer="21"/>
-<wire x1="-4.5" y1="-4.5" x2="-4.2" y2="-4.5" width="0.2032" layer="21"/>
-<circle x="-3.442" y="3.45" radius="0.2" width="0.09" layer="51"/>
-<smd name="26" x="0.75" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="25" x="0.25" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="24" x="-0.25" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="27" x="1.25" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="28" x="1.75" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="23" x="-0.75" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="22" x="-1.25" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="21" x="-1.75" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="6" x="-4.5" y="1.25" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="5" x="-4.5" y="1.75" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="4" x="-4.5" y="2.25" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="7" x="-4.5" y="0.75" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="8" x="-4.5" y="0.25" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="3" x="-4.5" y="2.75" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="2" x="-4.5" y="3.25" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="9" x="-4.5" y="-0.25" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="10" x="-4.5" y="-0.75" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="1" x="-4.5" y="3.75" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="16" x="-4.5" y="-3.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="15" x="-4.5" y="-3.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="14" x="-4.5" y="-2.75" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="17" x="-3.75" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="18" x="-3.25" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="13" x="-4.5" y="-2.25" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="12" x="-4.5" y="-1.75" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="19" x="-2.75" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="20" x="-2.25" y="-4.5" dx="0.28" dy="0.8" layer="1" rot="R180"/>
-<smd name="11" x="-4.5" y="-1.25" dx="0.28" dy="0.8" layer="1" rot="R270"/>
-<smd name="29" x="2.25" y="-4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="30" x="2.75" y="-4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="31" x="3.25" y="-4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="32" x="3.75" y="-4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="33" x="4.5" y="-3.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="34" x="4.5" y="-3.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="35" x="4.5" y="-2.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="36" x="4.5" y="-2.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="37" x="4.5" y="-1.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="38" x="4.5" y="-1.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="39" x="4.5" y="-0.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="40" x="4.5" y="-0.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="41" x="4.5" y="0.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="42" x="4.5" y="0.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="43" x="4.5" y="1.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="44" x="4.5" y="1.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="45" x="4.5" y="2.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="46" x="4.5" y="2.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="47" x="4.5" y="3.25" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="48" x="4.5" y="3.75" dx="0.28" dy="0.8" layer="1" rot="R90"/>
-<smd name="49" x="3.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="50" x="3.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="51" x="2.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="52" x="2.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="53" x="1.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="54" x="1.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="55" x="0.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="56" x="0.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="57" x="-0.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="58" x="-0.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="59" x="-1.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="60" x="-1.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="61" x="-2.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="62" x="-2.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="63" x="-3.25" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<smd name="64" x="-3.75" y="4.5" dx="0.28" dy="0.8" layer="1"/>
-<text x="-3.766" y="-3.1578" size="0.4064" layer="25" ratio="12">&gt;NAME</text>
-<text x="-3.766" y="-3.77" size="0.4064" layer="27" ratio="12">&gt;VALUE</text>
-<smd name="65" x="0" y="0" dx="7.65" dy="7.65" layer="1" cream="no"/>
-<rectangle x1="-3.3" y1="-3.3" x2="-1.5" y2="-1.5" layer="31"/>
-<rectangle x1="-3.3" y1="1.5" x2="-1.5" y2="3.3" layer="31"/>
-<rectangle x1="1.5" y1="-3.3" x2="3.3" y2="-1.5" layer="31"/>
-<rectangle x1="1.5" y1="1.5" x2="3.3" y2="3.3" layer="31"/>
-<rectangle x1="-3.3" y1="-1" x2="-1.5" y2="1" layer="31"/>
-<rectangle x1="1.5" y1="-1" x2="3.3" y2="1" layer="31"/>
-<rectangle x1="-1" y1="-3.3" x2="1" y2="-1.5" layer="31"/>
-<rectangle x1="-1" y1="1.5" x2="1" y2="3.3" layer="31"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ATMEGA128RFA1">
-<description>&lt;h3&gt;ATmega128RFA1&lt;/h3&gt;
-8-bit Microcontroller with Low Power 2.4GHz Transceiver for ZigBee and IEEE 802.15.4</description>
-<pin name="TST" x="-27.94" y="27.94" length="short"/>
-<pin name="RSTN" x="-27.94" y="33.02" length="short"/>
-<pin name="RSTON" x="-27.94" y="30.48" length="short"/>
-<pin name="PG0(DIG3)" x="27.94" y="-27.94" length="short" rot="R180"/>
-<pin name="PG1(DIG1)" x="27.94" y="-30.48" length="short" rot="R180"/>
-<pin name="PG2(AMR)" x="27.94" y="-33.02" length="short" rot="R180"/>
-<pin name="PG3(TOSC2)" x="27.94" y="-35.56" length="short" rot="R180"/>
-<pin name="PG4(TOSC1)" x="27.94" y="-38.1" length="short" rot="R180"/>
-<pin name="PG5(OC0B)" x="27.94" y="-40.64" length="short" rot="R180"/>
-<pin name="DVDD" x="-27.94" y="5.08" length="short"/>
-<pin name="PD0(SCL/INT0)" x="27.94" y="17.78" length="short" rot="R180"/>
-<pin name="PD1(SDA/INT1)" x="27.94" y="15.24" length="short" rot="R180"/>
-<pin name="PD2(RXD1/INT2)" x="27.94" y="12.7" length="short" rot="R180"/>
-<pin name="PD3(TXD1/INT3)" x="27.94" y="10.16" length="short" rot="R180"/>
-<pin name="PD4(ICP1)" x="27.94" y="7.62" length="short" rot="R180"/>
-<pin name="PD5(XCK1)" x="27.94" y="5.08" length="short" rot="R180"/>
-<pin name="PD6(T1)" x="27.94" y="2.54" length="short" rot="R180"/>
-<pin name="PD7(T0)" x="27.94" y="0" length="short" rot="R180"/>
-<pin name="CLKI" x="-27.94" y="-5.08" length="short"/>
-<pin name="PB0(SSN/PCINT0)" x="27.94" y="40.64" length="short" rot="R180"/>
-<pin name="PB1(SCK/PCINT1)" x="27.94" y="38.1" length="short" rot="R180"/>
-<pin name="PB2(MOSI/PDI/PCINT2)" x="27.94" y="35.56" length="short" rot="R180"/>
-<pin name="PB3(MISO/PDO/PCINT3)" x="27.94" y="33.02" length="short" rot="R180"/>
-<pin name="PB4(OC2A/PCINT4)" x="27.94" y="30.48" length="short" rot="R180"/>
-<pin name="PB5(OC1A/PCINT5)" x="27.94" y="27.94" length="short" rot="R180"/>
-<pin name="PB6(OC1B/PCINT6)" x="27.94" y="25.4" length="short" rot="R180"/>
-<pin name="PB7(OC0A/OC1C/PCINT7)" x="27.94" y="22.86" length="short" rot="R180"/>
-<pin name="RFP" x="-27.94" y="22.86" length="short"/>
-<pin name="RFN" x="-27.94" y="20.32" length="short"/>
-<pin name="AVSS_RFN" x="-27.94" y="15.24" length="short"/>
-<pin name="PADDLE" x="-27.94" y="-40.64" length="short"/>
-<pin name="DVSS" x="-27.94" y="-38.1" length="short"/>
-<pin name="DEVDD" x="-27.94" y="38.1" length="short"/>
-<pin name="PE0(RXD0/PCINT8)" x="27.94" y="-5.08" length="short" rot="R180"/>
-<pin name="PE1(TXD0)" x="27.94" y="-7.62" length="short" rot="R180"/>
-<pin name="PE2(XCK0/AIN0)" x="27.94" y="-10.16" length="short" rot="R180"/>
-<pin name="PE3(OC3A/AIN1)" x="27.94" y="-12.7" length="short" rot="R180"/>
-<pin name="PE4(OC3B/INT4)" x="27.94" y="-15.24" length="short" rot="R180"/>
-<pin name="PE5(OC3C/INT5)" x="27.94" y="-17.78" length="short" rot="R180"/>
-<pin name="PE6(T3/INT6)" x="27.94" y="-20.32" length="short" rot="R180"/>
-<pin name="PE7(ICP3/INT7/CLKO)" x="27.94" y="-22.86" length="short" rot="R180"/>
-<pin name="XTAL2" x="-27.94" y="-2.54" length="short"/>
-<pin name="XTAL1" x="-27.94" y="0" length="short"/>
-<pin name="EVDD" x="-27.94" y="40.64" length="short"/>
-<pin name="AVSS" x="-27.94" y="-35.56" length="short"/>
-<pin name="AREF" x="-27.94" y="-10.16" length="short"/>
-<pin name="PF0(ADC0)" x="-27.94" y="-12.7" length="short"/>
-<pin name="PF1(ADC1)" x="-27.94" y="-15.24" length="short"/>
-<pin name="PF2(ADC2/DIG2)" x="-27.94" y="-17.78" length="short"/>
-<pin name="PF3(ADC3/DIG4)" x="-27.94" y="-20.32" length="short"/>
-<pin name="PF4(ADC4/TCK)" x="-27.94" y="-22.86" length="short"/>
-<pin name="PF5(ADC5/TMS)" x="-27.94" y="-25.4" length="short"/>
-<pin name="PF6(ADC6/TDO)" x="-27.94" y="-27.94" length="short"/>
-<pin name="PF7(ADC7/TDI)" x="-27.94" y="-30.48" length="short"/>
-<pin name="AVSS_RFP" x="-27.94" y="17.78" length="short"/>
-<pin name="AVDD" x="-27.94" y="7.62" length="short"/>
-<wire x1="25.4" y1="-43.18" x2="25.4" y2="43.18" width="0.254" layer="94"/>
-<wire x1="25.4" y1="43.18" x2="-25.4" y2="43.18" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="43.18" x2="-25.4" y2="-43.18" width="0.254" layer="94"/>
-<wire x1="-25.4" y1="-43.18" x2="25.4" y2="-43.18" width="0.254" layer="94"/>
-<text x="-25.4" y="43.688" size="1.778" layer="95">&gt;Name</text>
-<text x="-25.4" y="-45.212" size="1.778" layer="96">&gt;Value</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ATMEGA128RFA1" prefix="U">
-<description>&lt;h3&gt;ATmega128RFA1&lt;/h3&gt;
-8-bit AVR Microcontroller with Low Power 2.4GHz Transceiver for ZigBee and IEEE 802.15.4</description>
-<gates>
-<gate name="G$1" symbol="ATMEGA128RFA1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN-64">
-<connects>
-<connect gate="G$1" pin="AREF" pad="62"/>
-<connect gate="G$1" pin="AVDD" pad="60"/>
-<connect gate="G$1" pin="AVSS" pad="58 61"/>
-<connect gate="G$1" pin="AVSS_RFN" pad="10"/>
-<connect gate="G$1" pin="AVSS_RFP" pad="7"/>
-<connect gate="G$1" pin="CLKI" pad="33"/>
-<connect gate="G$1" pin="DEVDD" pad="23 34 44 54"/>
-<connect gate="G$1" pin="DVDD" pad="21 22"/>
-<connect gate="G$1" pin="DVSS" pad="20 24 35 45 55"/>
-<connect gate="G$1" pin="EVDD" pad="59"/>
-<connect gate="G$1" pin="PADDLE" pad="65"/>
-<connect gate="G$1" pin="PB0(SSN/PCINT0)" pad="36"/>
-<connect gate="G$1" pin="PB1(SCK/PCINT1)" pad="37"/>
-<connect gate="G$1" pin="PB2(MOSI/PDI/PCINT2)" pad="38"/>
-<connect gate="G$1" pin="PB3(MISO/PDO/PCINT3)" pad="39"/>
-<connect gate="G$1" pin="PB4(OC2A/PCINT4)" pad="40"/>
-<connect gate="G$1" pin="PB5(OC1A/PCINT5)" pad="41"/>
-<connect gate="G$1" pin="PB6(OC1B/PCINT6)" pad="42"/>
-<connect gate="G$1" pin="PB7(OC0A/OC1C/PCINT7)" pad="43"/>
-<connect gate="G$1" pin="PD0(SCL/INT0)" pad="25"/>
-<connect gate="G$1" pin="PD1(SDA/INT1)" pad="26"/>
-<connect gate="G$1" pin="PD2(RXD1/INT2)" pad="27"/>
-<connect gate="G$1" pin="PD3(TXD1/INT3)" pad="28"/>
-<connect gate="G$1" pin="PD4(ICP1)" pad="29"/>
-<connect gate="G$1" pin="PD5(XCK1)" pad="30"/>
-<connect gate="G$1" pin="PD6(T1)" pad="31"/>
-<connect gate="G$1" pin="PD7(T0)" pad="32"/>
-<connect gate="G$1" pin="PE0(RXD0/PCINT8)" pad="46"/>
-<connect gate="G$1" pin="PE1(TXD0)" pad="47"/>
-<connect gate="G$1" pin="PE2(XCK0/AIN0)" pad="48"/>
-<connect gate="G$1" pin="PE3(OC3A/AIN1)" pad="49"/>
-<connect gate="G$1" pin="PE4(OC3B/INT4)" pad="50"/>
-<connect gate="G$1" pin="PE5(OC3C/INT5)" pad="51"/>
-<connect gate="G$1" pin="PE6(T3/INT6)" pad="52"/>
-<connect gate="G$1" pin="PE7(ICP3/INT7/CLKO)" pad="53"/>
-<connect gate="G$1" pin="PF0(ADC0)" pad="63"/>
-<connect gate="G$1" pin="PF1(ADC1)" pad="64"/>
-<connect gate="G$1" pin="PF2(ADC2/DIG2)" pad="1"/>
-<connect gate="G$1" pin="PF3(ADC3/DIG4)" pad="2"/>
-<connect gate="G$1" pin="PF4(ADC4/TCK)" pad="3"/>
-<connect gate="G$1" pin="PF5(ADC5/TMS)" pad="4"/>
-<connect gate="G$1" pin="PF6(ADC6/TDO)" pad="5"/>
-<connect gate="G$1" pin="PF7(ADC7/TDI)" pad="6"/>
-<connect gate="G$1" pin="PG0(DIG3)" pad="14"/>
-<connect gate="G$1" pin="PG1(DIG1)" pad="15"/>
-<connect gate="G$1" pin="PG2(AMR)" pad="16"/>
-<connect gate="G$1" pin="PG3(TOSC2)" pad="17"/>
-<connect gate="G$1" pin="PG4(TOSC1)" pad="18"/>
-<connect gate="G$1" pin="PG5(OC0B)" pad="19"/>
-<connect gate="G$1" pin="RFN" pad="9"/>
-<connect gate="G$1" pin="RFP" pad="8"/>
-<connect gate="G$1" pin="RSTN" pad="12"/>
-<connect gate="G$1" pin="RSTON" pad="13"/>
-<connect gate="G$1" pin="TST" pad="11"/>
-<connect gate="G$1" pin="XTAL1" pad="57"/>
-<connect gate="G$1" pin="XTAL2" pad="56"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun-Connectors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="2X3">
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="3.175" x2="-0.635" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="3.81" x2="1.27" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="3.175" x2="1.905" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="3.81" x2="3.175" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="3.81" x2="3.81" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="4.445" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="3.81" x2="5.715" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="3.81" x2="6.35" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="3.175" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="3.175" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.605" x2="-0.635" y2="-1.605" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="2" x="0" y="2.54" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="4" x="2.54" y="2.54" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="5" x="5.08" y="0" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="6" x="5.08" y="2.54" drill="1.016" diameter="1.8796" shape="octagon"/>
-<text x="-1.27" y="4.445" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="2.286" x2="0.254" y2="2.794" layer="51"/>
-<rectangle x1="2.286" y1="2.286" x2="2.794" y2="2.794" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="2.286" x2="5.334" y2="2.794" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-</package>
-<package name="2X3-NS">
-<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.2032" layer="51"/>
-<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.2032" layer="51"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.2032" layer="51"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.2032" layer="51"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.2032" layer="51"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.2032" layer="51"/>
-<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.2032" layer="51"/>
-<wire x1="-1.905" y1="-2.875" x2="-3.175" y2="-2.875" width="0.2032" layer="51"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="square"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="4" x="0" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
-<text x="-3.81" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-</package>
-<package name="2X3_OFFSET">
-<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.2032" layer="21"/>
-<wire x1="-1.905" y1="-4.78" x2="-3.175" y2="-4.78" width="0.2032" layer="21"/>
-<pad name="1" x="-2.54" y="-1.27" drill="1.1176" diameter="1.8796" shape="offset" rot="R270"/>
-<pad name="2" x="-2.54" y="1.27" drill="1.1176" diameter="1.8796" shape="offset" rot="R90"/>
-<pad name="3" x="0" y="-1.27" drill="1.1176" diameter="1.8796" shape="offset" rot="R270"/>
-<pad name="4" x="0" y="1.27" drill="1.1176" diameter="1.8796" shape="offset" rot="R90"/>
-<pad name="5" x="2.54" y="-1.27" drill="1.1176" diameter="1.8796" shape="offset" rot="R270"/>
-<pad name="6" x="2.54" y="1.27" drill="1.1176" diameter="1.8796" shape="offset" rot="R90"/>
-<text x="-4.445" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-3.175" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
-<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
-<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
-<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
-<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-</package>
-<package name="2X3_LOCK">
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="3.175" x2="-0.635" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="3.81" x2="1.27" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="3.175" x2="1.905" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="3.81" x2="3.175" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="3.175" y1="3.81" x2="3.81" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="4.445" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="3.81" x2="5.715" y2="3.81" width="0.2032" layer="21"/>
-<wire x1="5.715" y1="3.81" x2="6.35" y2="3.175" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="3.175" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="3.175" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="6.35" y1="3.175" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="0.635" y1="-1.605" x2="-0.635" y2="-1.605" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="2" x="0" y="2.54" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="3" x="2.54" y="-0.254" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="4" x="2.54" y="2.286" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="5" x="5.08" y="0" drill="1.016" diameter="1.8796" shape="octagon"/>
-<pad name="6" x="5.08" y="2.54" drill="1.016" diameter="1.8796" shape="octagon"/>
-<text x="-1.27" y="4.445" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="2.286" x2="0.254" y2="2.794" layer="51"/>
-<rectangle x1="2.286" y1="2.286" x2="2.794" y2="2.794" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="2.286" x2="5.334" y2="2.794" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="AVR_SPI_PROGRAMMER_6">
-<wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-4.318" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.064" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="8.89" y="0.635" size="1.27" layer="94">MOSI</text>
-<text x="-11.938" y="-2.032" size="1.27" layer="94">RESET</text>
-<text x="-11.938" y="0.508" size="1.27" layer="94">SCK</text>
-<text x="-11.938" y="3.302" size="1.27" layer="94">MISO</text>
-<text x="8.89" y="3.048" size="1.27" layer="94">+5</text>
-<text x="8.89" y="-2.032" size="1.27" layer="94">GND</text>
-<pin name="1" x="-7.62" y="2.54" visible="pad" direction="pas" function="dot"/>
-<pin name="2" x="10.16" y="2.54" visible="pad" direction="pas" function="dot" rot="R180"/>
-<pin name="3" x="-7.62" y="0" visible="pad" direction="pas" function="dot"/>
-<pin name="4" x="10.16" y="0" visible="pad" direction="pas" function="dot" rot="R180"/>
-<pin name="5" x="-7.62" y="-2.54" visible="pad" direction="pas" function="dot"/>
-<pin name="6" x="10.16" y="-2.54" visible="pad" direction="pas" function="dot" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AVR_SPI_PRG_6" prefix="J">
-<description>&lt;b&gt;AVR ISP 6 Pin&lt;/b&gt;
-This is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508</description>
-<gates>
-<gate name="G$1" symbol="AVR_SPI_PROGRAMMER_6" x="0" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="2X3">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="NS" package="2X3-NS">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="OFFSET_PADS" package="2X3_OFFSET">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2X3_LOCK" package="2X3_LOCK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="SparkFun">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="quadparts_prebuilt">
 <packages>
 <package name="CAPC2012X140_HS">
@@ -2521,6 +1987,132 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="1" x="-3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" rot="R180" stop="no" cream="no"/>
 <smd name="2" x="3.12" y="0" dx="2.37" dy="2.43" layer="1" roundness="21" stop="no" cream="no"/>
 </package>
+<package name="2X3-NS">
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.2032" layer="51"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="-2.875" x2="-3.175" y2="-2.875" width="0.2032" layer="51"/>
+<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.2032" layer="21"/>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
+<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.2032" layer="21"/>
+<text x="-3.81" y="-4.445" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
+<text x="-3.81" y="3.175" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.2032" layer="21"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="1.016" diameter="1.8796" shape="octagon"/>
+<wire x1="-4.5" y1="3" x2="4.5" y2="3" width="0.127" layer="39"/>
+<wire x1="4.5" y1="3" x2="4.5" y2="-3" width="0.127" layer="39"/>
+<wire x1="4.5" y1="-3" x2="-4.5" y2="-3" width="0.127" layer="39"/>
+<wire x1="-4.5" y1="-3" x2="-4.5" y2="3" width="0.127" layer="39"/>
+</package>
+<package name="QFN-64">
+<circle x="-3.442" y="3.45" radius="0.2" width="0.09" layer="51"/>
+<text x="-6.666" y="5.2922" size="1.27" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
+<wire x1="-4.5" y1="-4.5" x2="-4.2" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="-4.5" x2="4.5" y2="-4.5" width="0.09" layer="51"/>
+<wire x1="-4.5" y1="4.2" x2="-4.2" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="-4.5" y1="4.5" x2="-4.5" y2="-4.5" width="0.09" layer="51"/>
+<wire x1="4.5" y1="-4.5" x2="4.2" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-4.5" x2="4.5" y2="-4.2" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="-4.5" x2="4.5" y2="4.5" width="0.09" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="-4.5" y2="4.5" width="0.09" layer="51"/>
+<wire x1="4.5" y1="4.5" x2="4.2" y2="4.5" width="0.2032" layer="21"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="4.2" width="0.2032" layer="21"/>
+<smd name="1" x="-4.881" y="3.75" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="10" x="-4.881" y="-0.75" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="11" x="-4.881" y="-1.25" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="12" x="-4.881" y="-1.75" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="13" x="-4.881" y="-2.25" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="14" x="-4.881" y="-2.75" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="15" x="-4.881" y="-3.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="16" x="-4.881" y="-3.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="17" x="-3.75" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="18" x="-3.25" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="19" x="-2.75" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="2" x="-4.881" y="3.25" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="20" x="-2.25" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="21" x="-1.75" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="22" x="-1.25" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="23" x="-0.75" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="24" x="-0.25" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="25" x="0.25" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="26" x="0.75" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="27" x="1.25" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="28" x="1.75" y="-4.881" dx="0.28" dy="1.562" layer="1" rot="R180"/>
+<smd name="29" x="2.25" y="-4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="3" x="-4.881" y="2.75" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="30" x="2.75" y="-4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="31" x="3.25" y="-4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="32" x="3.75" y="-4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="33" x="4.881" y="-3.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="34" x="4.881" y="-3.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="35" x="4.881" y="-2.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="36" x="4.881" y="-2.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="37" x="4.881" y="-1.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="38" x="4.881" y="-1.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="39" x="4.881" y="-0.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="4" x="-4.881" y="2.25" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="40" x="4.881" y="-0.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="41" x="4.881" y="0.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="42" x="4.881" y="0.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="43" x="4.881" y="1.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="44" x="4.881" y="1.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="45" x="4.881" y="2.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="46" x="4.881" y="2.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="47" x="4.881" y="3.25" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="48" x="4.881" y="3.75" dx="0.28" dy="1.562" layer="1" rot="R90"/>
+<smd name="49" x="3.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="5" x="-4.881" y="1.75" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="50" x="3.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="51" x="2.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="52" x="2.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="53" x="1.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="54" x="1.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="55" x="0.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="56" x="0.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="57" x="-0.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="58" x="-0.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="59" x="-1.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="6" x="-4.881" y="1.25" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="60" x="-1.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="61" x="-2.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="62" x="-2.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="63" x="-3.25" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="64" x="-3.75" y="4.881" dx="0.28" dy="1.562" layer="1"/>
+<smd name="7" x="-4.881" y="0.75" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="8" x="-4.881" y="0.25" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<smd name="9" x="-4.881" y="-0.25" dx="0.28" dy="1.562" layer="1" rot="R270"/>
+<wire x1="-6.4" y1="6.4" x2="6.5" y2="6.4" width="0.127" layer="39"/>
+<wire x1="6.5" y1="6.4" x2="6.5" y2="-6.4" width="0.127" layer="39"/>
+<wire x1="6.5" y1="-6.4" x2="-6.4" y2="-6.4" width="0.127" layer="39"/>
+<wire x1="-6.4" y1="-6.4" x2="-6.4" y2="6.4" width="0.127" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="RESOLVED-CAPACITOR-NP_">
@@ -2740,6 +2332,90 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="0.254" y="0.381" size="1.778" layer="95">&gt;NAME</text>
 <pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="AVR_SPI_PROGRAMMER_6">
+<text x="-11.938" y="-2.032" size="1.27" layer="94">RESET</text>
+<text x="-11.938" y="0.508" size="1.27" layer="94">SCK</text>
+<text x="-11.938" y="3.302" size="1.27" layer="94">MISO</text>
+<text x="-4.064" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-4.318" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.4064" layer="94"/>
+<text x="8.89" y="-2.032" size="1.27" layer="94">GND</text>
+<text x="8.89" y="0.635" size="1.27" layer="94">MOSI</text>
+<text x="8.89" y="3.048" size="1.27" layer="94">+5</text>
+<pin name="1" x="-7.62" y="2.54" visible="pad" direction="pas" function="dot"/>
+<pin name="2" x="10.16" y="2.54" visible="pad" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="-7.62" y="0" visible="pad" direction="pas" function="dot"/>
+<pin name="4" x="10.16" y="0" visible="pad" direction="pas" function="dot" rot="R180"/>
+<pin name="5" x="-7.62" y="-2.54" visible="pad" direction="pas" function="dot"/>
+<pin name="6" x="10.16" y="-2.54" visible="pad" direction="pas" function="dot" rot="R180"/>
+</symbol>
+<symbol name="ATMEGA128RFA1">
+<description>&lt;h3&gt;ATmega128RFA1&lt;/h3&gt;
+8-bit Microcontroller with Low Power 2.4GHz Transceiver for ZigBee and IEEE 802.15.4</description>
+<wire x1="-25.4" y1="-43.18" x2="25.4" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="43.18" x2="-25.4" y2="-43.18" width="0.254" layer="94"/>
+<text x="-25.4" y="43.688" size="1.778" layer="95">&gt;NAME</text>
+<wire x1="25.4" y1="-43.18" x2="25.4" y2="43.18" width="0.254" layer="94"/>
+<wire x1="25.4" y1="43.18" x2="-25.4" y2="43.18" width="0.254" layer="94"/>
+<pin name="AREF" x="-27.94" y="-10.16" length="short"/>
+<pin name="AVDD" x="-27.94" y="7.62" length="short"/>
+<pin name="AVSS" x="-27.94" y="-35.56" length="short"/>
+<pin name="AVSS_RFN" x="-27.94" y="15.24" length="short"/>
+<pin name="AVSS_RFP" x="-27.94" y="17.78" length="short"/>
+<pin name="CLKI" x="-27.94" y="-5.08" length="short"/>
+<pin name="DEVDD" x="-27.94" y="38.1" length="short"/>
+<pin name="DVDD" x="-27.94" y="5.08" length="short"/>
+<pin name="DVSS" x="-27.94" y="-38.1" length="short"/>
+<pin name="EVDD" x="-27.94" y="40.64" length="short"/>
+<pin name="PB0(SSN/PCINT0)" x="27.94" y="40.64" length="short" rot="R180"/>
+<pin name="PB1(SCK/PCINT1)" x="27.94" y="38.1" length="short" rot="R180"/>
+<pin name="PB2(MOSI/PDI/PCINT2)" x="27.94" y="35.56" length="short" rot="R180"/>
+<pin name="PB3(MISO/PDO/PCINT3)" x="27.94" y="33.02" length="short" rot="R180"/>
+<pin name="PB4(OC2A/PCINT4)" x="27.94" y="30.48" length="short" rot="R180"/>
+<pin name="PB5(OC1A/PCINT5)" x="27.94" y="27.94" length="short" rot="R180"/>
+<pin name="PB6(OC1B/PCINT6)" x="27.94" y="25.4" length="short" rot="R180"/>
+<pin name="PB7(OC0A/OC1C/PCINT7)" x="27.94" y="22.86" length="short" rot="R180"/>
+<pin name="PD0(SCL/INT0)" x="27.94" y="17.78" length="short" rot="R180"/>
+<pin name="PD1(SDA/INT1)" x="27.94" y="15.24" length="short" rot="R180"/>
+<pin name="PD2(RXD1/INT2)" x="27.94" y="12.7" length="short" rot="R180"/>
+<pin name="PD3(TXD1/INT3)" x="27.94" y="10.16" length="short" rot="R180"/>
+<pin name="PD4(ICP1)" x="27.94" y="7.62" length="short" rot="R180"/>
+<pin name="PD5(XCK1)" x="27.94" y="5.08" length="short" rot="R180"/>
+<pin name="PD6(T1)" x="27.94" y="2.54" length="short" rot="R180"/>
+<pin name="PD7(T0)" x="27.94" y="0" length="short" rot="R180"/>
+<pin name="PE0(RXD0/PCINT8)" x="27.94" y="-5.08" length="short" rot="R180"/>
+<pin name="PE1(TXD0)" x="27.94" y="-7.62" length="short" rot="R180"/>
+<pin name="PE2(XCK0/AIN0)" x="27.94" y="-10.16" length="short" rot="R180"/>
+<pin name="PE3(OC3A/AIN1)" x="27.94" y="-12.7" length="short" rot="R180"/>
+<pin name="PE4(OC3B/INT4)" x="27.94" y="-15.24" length="short" rot="R180"/>
+<pin name="PE5(OC3C/INT5)" x="27.94" y="-17.78" length="short" rot="R180"/>
+<pin name="PE6(T3/INT6)" x="27.94" y="-20.32" length="short" rot="R180"/>
+<pin name="PE7(ICP3/INT7/CLKO)" x="27.94" y="-22.86" length="short" rot="R180"/>
+<pin name="PF0(ADC0)" x="-27.94" y="-12.7" length="short"/>
+<pin name="PF1(ADC1)" x="-27.94" y="-15.24" length="short"/>
+<pin name="PF2(ADC2/DIG2)" x="-27.94" y="-17.78" length="short"/>
+<pin name="PF3(ADC3/DIG4)" x="-27.94" y="-20.32" length="short"/>
+<pin name="PF4(ADC4/TCK)" x="-27.94" y="-22.86" length="short"/>
+<pin name="PF5(ADC5/TMS)" x="-27.94" y="-25.4" length="short"/>
+<pin name="PF6(ADC6/TDO)" x="-27.94" y="-27.94" length="short"/>
+<pin name="PF7(ADC7/TDI)" x="-27.94" y="-30.48" length="short"/>
+<pin name="PG0(DIG3)" x="27.94" y="-27.94" length="short" rot="R180"/>
+<pin name="PG1(DIG1)" x="27.94" y="-30.48" length="short" rot="R180"/>
+<pin name="PG2(AMR)" x="27.94" y="-33.02" length="short" rot="R180"/>
+<pin name="PG3(TOSC2)" x="27.94" y="-35.56" length="short" rot="R180"/>
+<pin name="PG4(TOSC1)" x="27.94" y="-38.1" length="short" rot="R180"/>
+<pin name="PG5(OC0B)" x="27.94" y="-40.64" length="short" rot="R180"/>
+<pin name="RFN" x="-27.94" y="20.32" length="short"/>
+<pin name="RFP" x="-27.94" y="22.86" length="short"/>
+<pin name="RSTN" x="-27.94" y="33.02" length="short"/>
+<pin name="RSTON" x="-27.94" y="30.48" length="short"/>
+<pin name="TST" x="-27.94" y="27.94" length="short"/>
+<pin name="XTAL1" x="-27.94" y="0" length="short"/>
+<pin name="XTAL2" x="-27.94" y="-2.54" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3353,6 +3029,114 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </device>
 </devices>
 </deviceset>
+<deviceset name="AVR_SPI_PRG_6" prefix="J">
+<description>&lt;b&gt;AVR ISP 6 Pin&lt;/b&gt;
+This is the reduced ISP connector for AVR programming. Common on Arduino. This footprint will take up less PCB space and can be used with a 10-pin to 6-pin adapter such as SKU: BOB-08508</description>
+<gates>
+<gate name="G$1" symbol="AVR_SPI_PROGRAMMER_6" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NS" package="2X3-NS">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="609-3234-ND"/>
+<attribute name="MFR" value="Amphenol FCI"/>
+<attribute name="MPN" value="67997-206HLF"/>
+<attribute name="PRICE" value="0.31"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ATMEGA128RFA1" prefix="U">
+<description>&lt;h3&gt;ATmega128RFA1&lt;/h3&gt;
+8-bit AVR Microcontroller with Low Power 2.4GHz Transceiver for ZigBee and IEEE 802.15.4</description>
+<gates>
+<gate name="G$1" symbol="ATMEGA128RFA1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN-64">
+<connects>
+<connect gate="G$1" pin="AREF" pad="62"/>
+<connect gate="G$1" pin="AVDD" pad="60"/>
+<connect gate="G$1" pin="AVSS" pad="58 61"/>
+<connect gate="G$1" pin="AVSS_RFN" pad="10"/>
+<connect gate="G$1" pin="AVSS_RFP" pad="7"/>
+<connect gate="G$1" pin="CLKI" pad="33"/>
+<connect gate="G$1" pin="DEVDD" pad="23 34 44 54"/>
+<connect gate="G$1" pin="DVDD" pad="21 22"/>
+<connect gate="G$1" pin="DVSS" pad="20 24 35 45 55"/>
+<connect gate="G$1" pin="EVDD" pad="59"/>
+<connect gate="G$1" pin="PB0(SSN/PCINT0)" pad="36"/>
+<connect gate="G$1" pin="PB1(SCK/PCINT1)" pad="37"/>
+<connect gate="G$1" pin="PB2(MOSI/PDI/PCINT2)" pad="38"/>
+<connect gate="G$1" pin="PB3(MISO/PDO/PCINT3)" pad="39"/>
+<connect gate="G$1" pin="PB4(OC2A/PCINT4)" pad="40"/>
+<connect gate="G$1" pin="PB5(OC1A/PCINT5)" pad="41"/>
+<connect gate="G$1" pin="PB6(OC1B/PCINT6)" pad="42"/>
+<connect gate="G$1" pin="PB7(OC0A/OC1C/PCINT7)" pad="43"/>
+<connect gate="G$1" pin="PD0(SCL/INT0)" pad="25"/>
+<connect gate="G$1" pin="PD1(SDA/INT1)" pad="26"/>
+<connect gate="G$1" pin="PD2(RXD1/INT2)" pad="27"/>
+<connect gate="G$1" pin="PD3(TXD1/INT3)" pad="28"/>
+<connect gate="G$1" pin="PD4(ICP1)" pad="29"/>
+<connect gate="G$1" pin="PD5(XCK1)" pad="30"/>
+<connect gate="G$1" pin="PD6(T1)" pad="31"/>
+<connect gate="G$1" pin="PD7(T0)" pad="32"/>
+<connect gate="G$1" pin="PE0(RXD0/PCINT8)" pad="46"/>
+<connect gate="G$1" pin="PE1(TXD0)" pad="47"/>
+<connect gate="G$1" pin="PE2(XCK0/AIN0)" pad="48"/>
+<connect gate="G$1" pin="PE3(OC3A/AIN1)" pad="49"/>
+<connect gate="G$1" pin="PE4(OC3B/INT4)" pad="50"/>
+<connect gate="G$1" pin="PE5(OC3C/INT5)" pad="51"/>
+<connect gate="G$1" pin="PE6(T3/INT6)" pad="52"/>
+<connect gate="G$1" pin="PE7(ICP3/INT7/CLKO)" pad="53"/>
+<connect gate="G$1" pin="PF0(ADC0)" pad="63"/>
+<connect gate="G$1" pin="PF1(ADC1)" pad="64"/>
+<connect gate="G$1" pin="PF2(ADC2/DIG2)" pad="1"/>
+<connect gate="G$1" pin="PF3(ADC3/DIG4)" pad="2"/>
+<connect gate="G$1" pin="PF4(ADC4/TCK)" pad="3"/>
+<connect gate="G$1" pin="PF5(ADC5/TMS)" pad="4"/>
+<connect gate="G$1" pin="PF6(ADC6/TDO)" pad="5"/>
+<connect gate="G$1" pin="PF7(ADC7/TDI)" pad="6"/>
+<connect gate="G$1" pin="PG0(DIG3)" pad="14"/>
+<connect gate="G$1" pin="PG1(DIG1)" pad="15"/>
+<connect gate="G$1" pin="PG2(AMR)" pad="16"/>
+<connect gate="G$1" pin="PG3(TOSC2)" pad="17"/>
+<connect gate="G$1" pin="PG4(TOSC1)" pad="18"/>
+<connect gate="G$1" pin="PG5(OC0B)" pad="19"/>
+<connect gate="G$1" pin="RFN" pad="9"/>
+<connect gate="G$1" pin="RFP" pad="8"/>
+<connect gate="G$1" pin="RSTN" pad="12"/>
+<connect gate="G$1" pin="RSTON" pad="13"/>
+<connect gate="G$1" pin="TST" pad="11"/>
+<connect gate="G$1" pin="XTAL1" pad="57"/>
+<connect gate="G$1" pin="XTAL2" pad="56"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="CREATOR" value="Swanson" constant="no"/>
+<attribute name="DATASHEET" value="http://www.atmel.com/Images/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf"/>
+<attribute name="DIST" value="Digikey"/>
+<attribute name="DISTPN" value="ATMEGA128RFA1-ZUR00DKR-ND"/>
+<attribute name="MFR" value="Atmel"/>
+<attribute name="MPN" value="ATMEGA128RFA1-ZUR00"/>
+<attribute name="PRICE" value="10.21"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="quadparts_michael">
@@ -3625,6 +3409,10 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <smd name="P$2" x="0.5" y="0" dx="1" dy="1" layer="1"/>
 <text x="-2.54" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-1.3" y1="0.8" x2="1.3" y2="0.8" width="0.127" layer="39"/>
+<wire x1="1.3" y1="0.8" x2="1.3" y2="-0.8" width="0.127" layer="39"/>
+<wire x1="1.3" y1="-0.8" x2="-1.3" y2="-0.8" width="0.127" layer="39"/>
+<wire x1="-1.3" y1="-0.8" x2="-1.3" y2="0.8" width="0.127" layer="39"/>
 </package>
 <package name="RED_LED">
 <wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.0254" layer="21"/>
@@ -3782,13 +3570,13 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <attribute name="DISTPN" value="3M9447-ND"/>
 <attribute name="MFR" value="3M"/>
 <attribute name="MPN" value="961102-6404-AR"/>
-<attribute name="REVIEWER" value=""/>
+<attribute name="REVIEWER" value="group 4"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET">
+<deviceset name="MOSFET" prefix="Q">
 <gates>
 <gate name="G$1" symbol="MOSFET" x="0" y="0"/>
 </gates>
@@ -3806,7 +3594,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <attribute name="DISTPN" value="SI2302CDS-T1-E3CT-ND " constant="no"/>
 <attribute name="MFR" value="Vishay Siliconix " constant="no"/>
 <attribute name="MPN" value="SI2302CDS-T1-E3 " constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="group 4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3851,7 +3639,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <attribute name="DISTPN" value="497-14946-1-ND " constant="no"/>
 <attribute name="MFR" value="STMicroelectronics " constant="no"/>
 <attribute name="MPN" value="LSM9DS1TR " constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="group 4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3874,7 +3662,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <attribute name="DISTPN" value="none" constant="no"/>
 <attribute name="MFR" value="none" constant="no"/>
 <attribute name="MPN" value="none" constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="group 4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3897,7 +3685,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <attribute name="DISTPN" value="160-1178-1-ND " constant="no"/>
 <attribute name="MFR" value="Lite-On Inc " constant="no"/>
 <attribute name="MPN" value="LTST-C170EKT " constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="group 4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3919,23 +3707,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA128RFA1" device=""/>
-<part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="NS" value="ISP"/>
-<part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND30" library="SparkFun" deviceset="GND" device=""/>
+<part name="J1" library="quadparts_prebuilt" deviceset="AVR_SPI_PRG_6" device="NS" value="ISP"/>
 <part name="C1" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-12PF" value="12pF"/>
 <part name="C2" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-12PF" value="12pF"/>
 <part name="C5" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-1UF" value="1uF"/>
@@ -3998,12 +3770,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="U$3" library="quadparts_prebuilt" deviceset="ANTENNA2" device="SMD5"/>
 <part name="Y2" library="quadparts_prebuilt" deviceset="CRYSTAL" device="5X3"/>
 <part name="JP3" library="quadparts_prebuilt" deviceset="FTDI_BASIC" device="PTH"/>
-<part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C12" library="quadparts_prebuilt" deviceset="CAPACITOR-NP_" device="SMD-2012-0805_CERAMIC-0.1UF" value="0.1uF"/>
 <part name="JP4" library="quadparts_prebuilt" deviceset="FTDI_BASIC" device="PTH"/>
-<part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D3" library="quadparts_michael" deviceset="LED" device="-RED"/>
-<part name="GND15" library="SparkFun" deviceset="GND" device=""/>
 <part name="R3" library="quadparts_prebuilt" deviceset="RESISTOR_" device="SMD-2012-0805-330" value="330"/>
 <part name="D1" library="quadparts_michael" deviceset="LED" device="-RED"/>
 <part name="GND25" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
@@ -4011,7 +3780,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="GND28" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 <part name="GND29" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 <part name="GND31" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
-<part name="GND32" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="GND33" library="quadparts_prebuilt" deviceset="GND" device=""/>
 <part name="C9" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
 <part name="C14" library="quadparts_prebuilt" deviceset="CAPACITOR-POL_" device="SMD-7043-D_TANTALUM-220UF" value="220uF"/>
@@ -4025,6 +3793,26 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="GND34" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 <part name="GND36" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
 <part name="GND39" library="quadparts_prebuilt" deviceset="BAT_GND" device=""/>
+<part name="GND4" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND35" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND5" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND37" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND2" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND3" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND1" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND6" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND7" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND8" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND9" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND10" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND15" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND11" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND12" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND13" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND14" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND21" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="GND22" library="quadparts_prebuilt" deviceset="GND" device=""/>
+<part name="U2" library="quadparts_prebuilt" deviceset="ATMEGA128RFA1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4067,23 +3855,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="-74.93" y1="-8.89" x2="-74.93" y2="5.08" width="0.1524" layer="97" style="shortdash"/>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="10.16" y="-27.94" rot="MR0"/>
-<instance part="GND1" gate="1" x="40.64" y="-81.28" rot="MR0"/>
-<instance part="GND2" gate="1" x="83.82" y="-45.72" rot="MR0"/>
-<instance part="GND3" gate="1" x="76.2" y="-45.72" rot="MR0"/>
-<instance part="GND4" gate="1" x="7.62" y="25.4" rot="MR0"/>
-<instance part="GND5" gate="1" x="15.24" y="25.4" rot="MR0"/>
-<instance part="GND6" gate="1" x="66.04" y="-45.72" rot="MR0"/>
-<instance part="GND7" gate="1" x="55.88" y="-45.72" rot="MR0"/>
-<instance part="GND8" gate="1" x="-27.94" y="-81.28" rot="MR0"/>
-<instance part="GND9" gate="1" x="-38.1" y="-81.28" rot="MR0"/>
-<instance part="GND10" gate="1" x="43.18" y="-17.78" rot="MR0"/>
-<instance part="GND11" gate="1" x="73.66" y="-7.62" rot="MR0"/>
-<instance part="GND12" gate="1" x="93.98" y="-27.94" rot="MR0"/>
 <instance part="J1" gate="G$1" x="93.98" y="33.02"/>
-<instance part="GND14" gate="1" x="106.68" y="22.86"/>
-<instance part="GND13" gate="1" x="106.68" y="-10.16" rot="MR0"/>
-<instance part="GND30" gate="1" x="-48.26" y="-43.18"/>
 <instance part="C1" gate="G$1" x="55.88" y="-38.1"/>
 <instance part="C2" gate="G$1" x="66.04" y="-38.1"/>
 <instance part="C5" gate="G$1" x="76.2" y="-38.1"/>
@@ -4091,8 +3863,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="R1" gate="G$1" x="50.8" y="12.7" rot="R90"/>
 <instance part="C7" gate="G$1" x="78.74" y="-2.54" rot="R90"/>
 <instance part="C8" gate="G$1" x="106.68" y="0"/>
-<instance part="C3" gate="G$1" x="7.62" y="35.56"/>
-<instance part="C4" gate="G$1" x="15.24" y="35.56"/>
+<instance part="C3" gate="G$1" x="-53.34" y="66.04"/>
+<instance part="C4" gate="G$1" x="-45.72" y="66.04"/>
 <instance part="C11" gate="G$1" x="116.84" y="-66.04"/>
 <instance part="C15" gate="G$1" x="129.54" y="-27.94" rot="R90"/>
 <instance part="C16" gate="G$1" x="121.92" y="-17.78"/>
@@ -4122,7 +3894,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="U$7" gate="G$1" x="256.54" y="-5.08" rot="R90"/>
 <instance part="GND24" gate="1" x="-22.86" y="132.08"/>
 <instance part="R7" gate="G$1" x="172.72" y="-68.58" rot="R180"/>
-<instance part="R8" gate="G$1" x="-48.26" y="-30.48" rot="R90"/>
+<instance part="R8" gate="G$1" x="-78.74" y="38.1" rot="R90"/>
 <instance part="R10" gate="G$1" x="241.3" y="-5.08" rot="R90"/>
 <instance part="D5" gate="G$1" x="269.24" y="147.32" rot="R90"/>
 <instance part="U$13" gate="G$1" x="251.46" y="144.78"/>
@@ -4147,20 +3919,16 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="U$3" gate="G$1" x="109.22" y="12.7"/>
 <instance part="Y2" gate="G$1" x="60.96" y="-30.48"/>
 <instance part="JP3" gate="G$1" x="38.1" y="71.12"/>
-<instance part="GND21" gate="1" x="66.04" y="76.2"/>
 <instance part="C12" gate="G$1" x="66.04" y="66.04" rot="R90"/>
 <instance part="JP4" gate="G$1" x="96.52" y="71.12"/>
-<instance part="GND22" gate="1" x="124.46" y="76.2"/>
-<instance part="D3" gate="G$1" x="-48.26" y="-10.16" rot="R270"/>
-<instance part="GND15" gate="1" x="-35.56" y="-43.18"/>
-<instance part="R3" gate="G$1" x="-35.56" y="-30.48" rot="R90"/>
-<instance part="D1" gate="G$1" x="-35.56" y="-10.16" rot="R270"/>
+<instance part="D3" gate="G$1" x="-78.74" y="58.42" rot="R270"/>
+<instance part="R3" gate="G$1" x="-66.04" y="38.1" rot="R90"/>
+<instance part="D1" gate="G$1" x="-66.04" y="58.42" rot="R270"/>
 <instance part="GND25" gate="1" x="7.62" y="137.16"/>
 <instance part="GND23" gate="1" x="236.22" y="134.62"/>
 <instance part="GND28" gate="1" x="226.06" y="20.32"/>
 <instance part="GND29" gate="1" x="-101.6" y="-12.7"/>
 <instance part="GND31" gate="1" x="-99.06" y="132.08"/>
-<instance part="GND32" gate="1" x="50.8" y="-2.54"/>
 <instance part="GND33" gate="1" x="48.26" y="-35.56"/>
 <instance part="C9" gate="G$1" x="236.22" y="144.78"/>
 <instance part="C14" gate="G$1" x="226.06" y="30.48"/>
@@ -4174,95 +3942,31 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="GND34" gate="1" x="223.52" y="-15.24"/>
 <instance part="GND36" gate="1" x="-104.14" y="-48.26"/>
 <instance part="GND39" gate="1" x="-101.6" y="96.52"/>
+<instance part="GND4" gate="1" x="-53.34" y="55.88"/>
+<instance part="GND35" gate="1" x="-45.72" y="55.88"/>
+<instance part="GND5" gate="1" x="76.2" y="-48.26"/>
+<instance part="GND37" gate="1" x="83.82" y="-48.26"/>
+<instance part="GND2" gate="1" x="55.88" y="-45.72"/>
+<instance part="GND3" gate="1" x="66.04" y="-45.72"/>
+<instance part="GND1" gate="1" x="40.64" y="-81.28"/>
+<instance part="GND6" gate="1" x="-38.1" y="-81.28"/>
+<instance part="GND7" gate="1" x="-27.94" y="-81.28"/>
+<instance part="GND8" gate="1" x="-78.74" y="25.4"/>
+<instance part="GND9" gate="1" x="-66.04" y="25.4"/>
+<instance part="GND10" gate="1" x="43.18" y="-17.78"/>
+<instance part="GND15" gate="1" x="50.8" y="-2.54"/>
+<instance part="GND11" gate="1" x="73.66" y="-7.62"/>
+<instance part="GND12" gate="1" x="93.98" y="-27.94"/>
+<instance part="GND13" gate="1" x="106.68" y="-10.16"/>
+<instance part="GND14" gate="1" x="106.68" y="22.86"/>
+<instance part="GND21" gate="1" x="66.04" y="76.2"/>
+<instance part="GND22" gate="1" x="124.46" y="76.2"/>
+<instance part="U2" gate="G$1" x="10.16" y="-27.94" rot="MR0"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="2">
-<segment>
-<pinref part="U1" gate="G$1" pin="PADDLE"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="38.1" y1="-68.58" x2="40.64" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DVSS"/>
-<wire x1="40.64" y1="-68.58" x2="40.64" y2="-78.74" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="-66.04" x2="40.64" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-66.04" x2="40.64" y2="-68.58" width="0.1524" layer="91"/>
-<junction x="40.64" y="-68.58"/>
-<pinref part="U1" gate="G$1" pin="AVSS"/>
-<wire x1="38.1" y1="-63.5" x2="40.64" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-63.5" x2="40.64" y2="-66.04" width="0.1524" layer="91"/>
-<junction x="40.64" y="-66.04"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="15.24" y1="27.94" x2="15.24" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="30.48" x2="7.62" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="PG4(TOSC1)"/>
-<wire x1="-17.78" y1="-66.04" x2="-27.94" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="-78.74" x2="-27.94" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="U1" gate="G$1" pin="PG3(TOSC2)"/>
-<wire x1="-38.1" y1="-63.5" x2="-17.78" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-78.74" x2="-38.1" y2="-63.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="AVSS_RFN"/>
-<wire x1="38.1" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="AVSS_RFP"/>
-<wire x1="38.1" y1="-10.16" x2="43.18" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-10.16" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="43.18" y1="-15.24" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="43.18" y="-12.7"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="6"/>
-<pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="104.14" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="30.48" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="93.98" y1="-10.16" x2="93.98" y2="-25.4" width="0.1524" layer="91"/>
-<pinref part="B2" gate="G$1" pin="GND@5"/>
-</segment>
-<segment>
-<pinref part="GND11" gate="1" pin="GND"/>
-<wire x1="76.2" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-2.54" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="106.68" y1="-7.62" x2="106.68" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-</segment>
+<net name="GND" class="0">
 <segment>
 <wire x1="121.92" y1="167.64" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
 <label x="132.08" y="167.64" size="1.778" layer="95"/>
@@ -4327,19 +4031,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="-48.26" y1="-35.56" x2="-48.26" y2="-40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="129.54" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="-35.56" y1="-35.56" x2="-35.56" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="STEP_DOWN" gate="G$1" pin="GND"/>
@@ -4347,32 +4041,122 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="20.32" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="6"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<wire x1="101.6" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP3" gate="G$1" pin="6"/>
-<pinref part="GND21" gate="1" pin="GND"/>
-<wire x1="43.18" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="TST"/>
-<wire x1="38.1" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
-<label x="53.34" y="0" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<label x="43.18" y="-15.24" size="1.778" layer="95"/>
-<pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="50.8" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
-<junction x="50.8" y="0"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="CLKI"/>
 <wire x1="38.1" y1="-33.02" x2="48.26" y2="-33.02" width="0.1524" layer="91"/>
 <label x="50.8" y="-33.02" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<label x="40.64" y="-78.74" size="1.778" layer="95"/>
 <pinref part="GND33" gate="1" pin="GND"/>
 <wire x1="48.26" y1="-33.02" x2="50.8" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="48.26" y="-33.02"/>
+<pinref part="U2" gate="G$1" pin="CLKI"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="-53.34" y1="60.96" x2="-53.34" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="GND4" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="-45.72" y1="58.42" x2="-45.72" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="76.2" y1="-45.72" x2="76.2" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="GND37" gate="1" pin="GND"/>
+<wire x1="83.82" y1="-45.72" x2="83.82" y2="-43.18" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="40.64" y1="-66.04" x2="40.64" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-66.04" x2="40.64" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-63.5" x2="40.64" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="-63.5" x2="40.64" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="40.64" y="-66.04"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="AVSS"/>
+<pinref part="U2" gate="G$1" pin="DVSS"/>
+</segment>
+<segment>
+<wire x1="-17.78" y1="-66.04" x2="-27.94" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="-78.74" x2="-27.94" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="GND7" gate="1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="PG4(TOSC1)"/>
+</segment>
+<segment>
+<wire x1="-38.1" y1="-63.5" x2="-17.78" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-78.74" x2="-38.1" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="PG3(TOSC2)"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="-66.04" y1="33.02" x2="-66.04" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="-78.74" y1="33.02" x2="-78.74" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="-10.16" x2="43.18" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-10.16" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-15.24" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="43.18" y="-12.7"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<pinref part="U2" gate="G$1" pin="AVSS_RFN"/>
+<pinref part="U2" gate="G$1" pin="AVSS_RFP"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="0" x2="50.8" y2="0" width="0.1524" layer="91"/>
+<label x="53.34" y="0" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="GND15" gate="1" pin="GND"/>
+<wire x1="50.8" y1="0" x2="53.34" y2="0" width="0.1524" layer="91"/>
+<junction x="50.8" y="0"/>
+<pinref part="U2" gate="G$1" pin="TST"/>
+</segment>
+<segment>
+<wire x1="76.2" y1="-2.54" x2="73.66" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-2.54" x2="73.66" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="93.98" y1="-10.16" x2="93.98" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="B2" gate="G$1" pin="GND@5"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="106.68" y1="-7.62" x2="106.68" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="104.14" y1="30.48" x2="106.68" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="30.48" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="G$1" pin="6"/>
+<wire x1="43.18" y1="78.74" x2="66.04" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="6"/>
+<wire x1="101.6" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND22" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -4381,57 +4165,57 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="63.5" y1="-30.48" x2="66.04" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="-30.48" x2="66.04" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="66.04" y="-30.48"/>
-<pinref part="U1" gate="G$1" pin="XTAL1"/>
 <wire x1="66.04" y1="-27.94" x2="38.1" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="Y2" gate="G$1" pin="2"/>
+<pinref part="U2" gate="G$1" pin="XTAL1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <wire x1="55.88" y1="-35.56" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-30.48" x2="58.42" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="XTAL2"/>
 <wire x1="55.88" y1="-30.48" x2="38.1" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="55.88" y="-30.48"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="Y2" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="XTAL2"/>
 </segment>
 </net>
 <net name="DVDD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="DVDD"/>
 <wire x1="38.1" y1="-22.86" x2="76.2" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="-22.86" x2="76.2" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="DVDD"/>
 </segment>
 </net>
 <net name="AVDD" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="AVDD"/>
 <wire x1="38.1" y1="-20.32" x2="83.82" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-20.32" x2="83.82" y2="-35.56" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="AVDD"/>
 </segment>
 </net>
 <net name="RFN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RFN"/>
 <wire x1="38.1" y1="-7.62" x2="63.5" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-7.62" x2="63.5" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-12.7" x2="88.9" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-12.7" x2="88.9" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="B2" gate="G$1" pin="OUT2"/>
+<pinref part="U2" gate="G$1" pin="RFN"/>
 </segment>
 </net>
 <net name="RFP" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RFP"/>
 <wire x1="38.1" y1="-5.08" x2="63.5" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="-5.08" x2="63.5" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="7.62" x2="88.9" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="7.62" x2="88.9" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="B2" gate="G$1" pin="OUT1"/>
+<pinref part="U2" gate="G$1" pin="RFP"/>
 </segment>
 </net>
 <net name="RFANT" class="1">
@@ -4449,13 +4233,13 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="RESET" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RSTN"/>
 <wire x1="38.1" y1="5.08" x2="50.8" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="5.08" x2="50.8" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="5.08" x2="53.34" y2="5.08" width="0.1524" layer="91"/>
 <junction x="50.8" y="5.08"/>
 <label x="53.34" y="5.08" size="1.27" layer="95" rot="MR180" xref="yes"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="RSTN"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="5"/>
@@ -4470,121 +4254,121 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="RSTON" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="RSTON"/>
 <wire x1="38.1" y1="2.54" x2="40.64" y2="2.54" width="0.1524" layer="91"/>
 <label x="40.64" y="2.54" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="RSTON"/>
 </segment>
 </net>
 <net name="AREF" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="AREF"/>
 <wire x1="38.1" y1="-38.1" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
 <label x="40.64" y="-38.1" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="AREF"/>
 </segment>
 </net>
 <net name="A0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF0(ADC0)"/>
 <wire x1="38.1" y1="-40.64" x2="40.64" y2="-40.64" width="0.1524" layer="91"/>
 <label x="40.64" y="-40.64" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF0(ADC0)"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF1(ADC1)"/>
 <wire x1="38.1" y1="-43.18" x2="40.64" y2="-43.18" width="0.1524" layer="91"/>
 <label x="40.64" y="-43.18" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF1(ADC1)"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF2(ADC2/DIG2)"/>
 <wire x1="38.1" y1="-45.72" x2="40.64" y2="-45.72" width="0.1524" layer="91"/>
 <label x="40.64" y="-45.72" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF2(ADC2/DIG2)"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF3(ADC3/DIG4)"/>
 <wire x1="38.1" y1="-48.26" x2="40.64" y2="-48.26" width="0.1524" layer="91"/>
 <label x="40.64" y="-48.26" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF3(ADC3/DIG4)"/>
 </segment>
 </net>
 <net name="A4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF4(ADC4/TCK)"/>
 <wire x1="38.1" y1="-50.8" x2="58.42" y2="-50.8" width="0.1524" layer="91"/>
 <label x="58.42" y="-50.8" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF4(ADC4/TCK)"/>
 </segment>
 </net>
 <net name="A5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF5(ADC5/TMS)"/>
 <wire x1="38.1" y1="-53.34" x2="58.42" y2="-53.34" width="0.1524" layer="91"/>
 <label x="58.42" y="-53.34" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF5(ADC5/TMS)"/>
 </segment>
 </net>
 <net name="A6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF6(ADC6/TDO)"/>
 <wire x1="38.1" y1="-55.88" x2="58.42" y2="-55.88" width="0.1524" layer="91"/>
 <label x="58.42" y="-55.88" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF6(ADC6/TDO)"/>
 </segment>
 </net>
 <net name="A7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PF7(ADC7/TDI)"/>
 <wire x1="38.1" y1="-58.42" x2="58.42" y2="-58.42" width="0.1524" layer="91"/>
 <label x="58.42" y="-58.42" size="1.27" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PF7(ADC7/TDI)"/>
 </segment>
 </net>
 <net name="PG5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PG5(OC0B)"/>
 <wire x1="-17.78" y1="-68.58" x2="-20.32" y2="-68.58" width="0.1524" layer="91"/>
 <label x="-20.32" y="-68.58" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PG5(OC0B)"/>
 </segment>
 </net>
 <net name="PG2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PG2(AMR)"/>
 <wire x1="-17.78" y1="-60.96" x2="-20.32" y2="-60.96" width="0.1524" layer="91"/>
 <label x="-20.32" y="-60.96" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PG2(AMR)"/>
 </segment>
 </net>
 <net name="PG1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PG1(DIG1)"/>
 <wire x1="-17.78" y1="-58.42" x2="-20.32" y2="-58.42" width="0.1524" layer="91"/>
 <label x="-20.32" y="-58.42" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PG1(DIG1)"/>
 </segment>
 </net>
 <net name="PG0" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PG0(DIG3)"/>
 <wire x1="-17.78" y1="-55.88" x2="-20.32" y2="-55.88" width="0.1524" layer="91"/>
 <label x="-20.32" y="-55.88" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PG0(DIG3)"/>
 </segment>
 </net>
 <net name="PE7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE7(ICP3/INT7/CLKO)"/>
 <wire x1="-17.78" y1="-50.8" x2="-20.32" y2="-50.8" width="0.1524" layer="91"/>
 <label x="-20.32" y="-50.8" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PE7(ICP3/INT7/CLKO)"/>
 </segment>
 </net>
 <net name="PE6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE6(T3/INT6)"/>
 <wire x1="-17.78" y1="-48.26" x2="-20.32" y2="-48.26" width="0.1524" layer="91"/>
 <label x="-20.32" y="-48.26" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PE6(T3/INT6)"/>
 </segment>
 </net>
 <net name="PE5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE5(OC3C/INT5)"/>
 <wire x1="-17.78" y1="-45.72" x2="-20.32" y2="-45.72" width="0.1524" layer="91"/>
 <label x="-20.32" y="-45.72" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PE5(OC3C/INT5)"/>
 </segment>
 <segment>
 <wire x1="-109.22" y1="-30.48" x2="-114.3" y2="-30.48" width="0.1524" layer="91"/>
@@ -4599,9 +4383,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="PE4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE4(OC3B/INT4)"/>
 <wire x1="-17.78" y1="-43.18" x2="-20.32" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-20.32" y="-43.18" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PE4(OC3B/INT4)"/>
 </segment>
 <segment>
 <wire x1="-106.68" y1="114.3" x2="-111.76" y2="114.3" width="0.1524" layer="91"/>
@@ -4616,10 +4400,10 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="PE3" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE3(OC3A/AIN1)"/>
 <wire x1="-17.78" y1="-40.64" x2="-20.32" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-20.32" y="-40.64" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <label x="58.42" y="-50.8" size="1.778" layer="95" rot="R180"/>
+<pinref part="U2" gate="G$1" pin="PE3(OC3A/AIN1)"/>
 </segment>
 <segment>
 <wire x1="218.44" y1="2.54" x2="213.36" y2="2.54" width="0.1524" layer="91"/>
@@ -4634,16 +4418,16 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="PE2" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE2(XCK0/AIN0)"/>
 <wire x1="-17.78" y1="-38.1" x2="-20.32" y2="-38.1" width="0.1524" layer="91"/>
 <label x="-20.32" y="-38.1" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PE2(XCK0/AIN0)"/>
 </segment>
 </net>
 <net name="TXD1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE1(TXD0)"/>
 <wire x1="-17.78" y1="-35.56" x2="-20.32" y2="-35.56" width="0.1524" layer="91"/>
 <label x="-20.32" y="-35.56" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PE1(TXD0)"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
@@ -4653,9 +4437,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="RXD1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PE0(RXD0/PCINT8)"/>
 <wire x1="-17.78" y1="-33.02" x2="-20.32" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-20.32" y="-33.02" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PE0(RXD0/PCINT8)"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="G$1" pin="3"/>
@@ -4665,37 +4449,37 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="PD7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD7(T0)"/>
 <wire x1="-17.78" y1="-27.94" x2="-20.32" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-20.32" y="-27.94" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD7(T0)"/>
 </segment>
 </net>
 <net name="PD6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD6(T1)"/>
 <wire x1="-17.78" y1="-25.4" x2="-20.32" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-20.32" y="-25.4" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD6(T1)"/>
 </segment>
 </net>
 <net name="PD5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD5(XCK1)"/>
 <wire x1="-17.78" y1="-22.86" x2="-20.32" y2="-22.86" width="0.1524" layer="91"/>
 <label x="-20.32" y="-22.86" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD5(XCK1)"/>
 </segment>
 </net>
 <net name="PD4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD4(ICP1)"/>
 <wire x1="-17.78" y1="-20.32" x2="-20.32" y2="-20.32" width="0.1524" layer="91"/>
 <label x="-20.32" y="-20.32" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD4(ICP1)"/>
 </segment>
 </net>
 <net name="TX1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD3(TXD1/INT3)"/>
 <wire x1="-17.78" y1="-17.78" x2="-20.32" y2="-17.78" width="0.1524" layer="91"/>
 <label x="-20.32" y="-17.78" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD3(TXD1/INT3)"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
@@ -4705,9 +4489,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="RX1" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD2(RXD1/INT2)"/>
 <wire x1="-17.78" y1="-15.24" x2="-20.32" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-20.32" y="-15.24" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD2(RXD1/INT2)"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="G$1" pin="3"/>
@@ -4717,9 +4501,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD1(SDA/INT1)"/>
 <wire x1="-17.78" y1="-12.7" x2="-20.32" y2="-12.7" width="0.1524" layer="91"/>
 <label x="-20.32" y="-12.7" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD1(SDA/INT1)"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="-40.64" x2="167.64" y2="-68.58" width="0.1524" layer="91"/>
@@ -4737,9 +4521,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PD0(SCL/INT0)"/>
 <wire x1="-17.78" y1="-10.16" x2="-20.32" y2="-10.16" width="0.1524" layer="91"/>
 <label x="-20.32" y="-10.16" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PD0(SCL/INT0)"/>
 </segment>
 <segment>
 <wire x1="160.02" y1="-40.64" x2="160.02" y2="-45.72" width="0.1524" layer="91"/>
@@ -4758,23 +4542,23 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="PB7" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB7(OC0A/OC1C/PCINT7)"/>
 <wire x1="-17.78" y1="-5.08" x2="-20.32" y2="-5.08" width="0.1524" layer="91"/>
 <label x="-20.32" y="-5.08" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB7(OC0A/OC1C/PCINT7)"/>
 </segment>
 </net>
 <net name="PB6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB6(OC1B/PCINT6)"/>
 <wire x1="-17.78" y1="-2.54" x2="-20.32" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-20.32" y="-2.54" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB6(OC1B/PCINT6)"/>
 </segment>
 </net>
 <net name="PB5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB5(OC1A/PCINT5)"/>
 <wire x1="-17.78" y1="0" x2="-20.32" y2="0" width="0.1524" layer="91"/>
 <label x="-20.32" y="0" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB5(OC1A/PCINT5)"/>
 </segment>
 <segment>
 <wire x1="228.6" y1="116.84" x2="223.52" y2="116.84" width="0.1524" layer="91"/>
@@ -4789,16 +4573,16 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="PB4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB4(OC2A/PCINT4)"/>
 <wire x1="-17.78" y1="2.54" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
 <label x="-20.32" y="2.54" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB4(OC2A/PCINT4)"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB3(MISO/PDO/PCINT3)"/>
 <wire x1="-17.78" y1="5.08" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
 <label x="-20.32" y="5.08" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB3(MISO/PDO/PCINT3)"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
@@ -4808,9 +4592,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB2(MOSI/PDI/PCINT2)"/>
 <wire x1="-17.78" y1="7.62" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
 <label x="-20.32" y="7.62" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB2(MOSI/PDI/PCINT2)"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
@@ -4820,9 +4604,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB1(SCK/PCINT1)"/>
 <wire x1="-17.78" y1="10.16" x2="-20.32" y2="10.16" width="0.1524" layer="91"/>
 <label x="-20.32" y="10.16" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB1(SCK/PCINT1)"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
@@ -4832,9 +4616,9 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 </net>
 <net name="SSN" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB0(SSN/PCINT0)"/>
 <wire x1="-17.78" y1="12.7" x2="-20.32" y2="12.7" width="0.1524" layer="91"/>
 <label x="-20.32" y="12.7" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="PB0(SSN/PCINT0)"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -4929,14 +4713,14 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="142.24" y="-58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="7.62" y1="40.64" x2="7.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="71.12" x2="-53.34" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<label x="7.62" y="40.64" size="1.778" layer="95"/>
+<label x="-53.34" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="15.24" y1="40.64" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="71.12" x2="-45.72" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<label x="15.24" y="40.64" size="1.778" layer="95"/>
+<label x="-45.72" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="-10.16" x2="187.96" y2="-10.16" width="0.1524" layer="91"/>
@@ -4949,14 +4733,14 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="195.58" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="EVDD"/>
 <wire x1="38.1" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="12.7" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="DEVDD"/>
 <wire x1="38.1" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="10.16" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
 <junction x="43.18" y="12.7"/>
 <label x="43.18" y="20.32" size="1.778" layer="95"/>
+<pinref part="U2" gate="G$1" pin="DEVDD"/>
+<pinref part="U2" gate="G$1" pin="EVDD"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="20.32" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
@@ -5248,8 +5032,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <label x="-5.08" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="-48.26" y1="5.08" x2="-48.26" y2="2.54" width="0.1524" layer="91"/>
-<label x="-50.8" y="5.08" size="1.778" layer="95"/>
+<wire x1="-78.74" y1="73.66" x2="-78.74" y2="71.12" width="0.1524" layer="91"/>
+<label x="-81.28" y="73.66" size="1.778" layer="95"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 </segment>
 <segment>
@@ -5298,8 +5082,8 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="C19" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="5.08" x2="-35.56" y2="2.54" width="0.1524" layer="91"/>
-<label x="-38.1" y="5.08" size="1.778" layer="95"/>
+<wire x1="-66.04" y1="73.66" x2="-66.04" y2="71.12" width="0.1524" layer="91"/>
+<label x="-68.58" y="73.66" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 <segment>
@@ -5319,7 +5103,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <net name="N$10" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="-48.26" y1="-22.86" x2="-48.26" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="45.72" x2="-78.74" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -5341,7 +5125,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <net name="N$12" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="-22.86" x2="-35.56" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="-66.04" y1="45.72" x2="-66.04" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>

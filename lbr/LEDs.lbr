@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -409,7 +409,7 @@
 <attribute name="DISTPN" value="160-1178-1-ND" constant="no"/>
 <attribute name="MFR" value="Lite-On Inc" constant="no"/>
 <attribute name="MPN" value="LTST-C170EKT" constant="no"/>
-<attribute name="REVIEWER" value="" constant="no"/>
+<attribute name="REVIEWER" value="group 4" constant="no"/>
 </technology>
 </technologies>
 </device>
