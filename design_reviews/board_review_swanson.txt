@@ -1,5 +1,6 @@
 
 
+
 commit 0d50cbbeef07110baa93a807da9df0ee1c39ad51
 
 Power
@@ -49,3 +50,18 @@ Misc
 The pads on your mosfet are too small.  See page 6 of the datasheet. 
 
 Get rid of the box around your board. 
+
+commit f9c4a9ab122ed923742055bcc741036df990c7e2
+
+Cap 28 should connect to GND instead of BATGND.
+
+There should be no vias on the wires between your oscilator and the microcontroller.
+
+You are using the wrong diodes in yoru motor controller.  See my recent posting on piazza.
+
+Pads on mosfets too small. see piazza.
+
+you have a trace under your antenna.
+
+The wires to your antenna driver could be more symetrical.
+
