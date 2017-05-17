@@ -3973,6 +3973,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <part name="D2" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123"/>
 <part name="D5" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123"/>
 <part name="D6" library="quadparts_prebuilt" deviceset="DIODE-SCHOTTKY_" device="SMD-SOD123"/>
+<part name="GND32" library="quadparts_prebuilt" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4123,6 +4124,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <instance part="D2" gate="G$1" x="-66.04" y="144.78" rot="R90"/>
 <instance part="D5" gate="G$1" x="-68.58" y="0" rot="R90"/>
 <instance part="D6" gate="G$1" x="259.08" y="33.02" rot="R90"/>
+<instance part="GND32" gate="1" x="15.24" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -4318,6 +4320,11 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <wire x1="58.42" y1="129.54" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="129.54" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="129.54" x2="58.42" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="STEP_DOWN" gate="G$1" pin="GND"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+<wire x1="30.48" y1="149.86" x2="15.24" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5090,10 +5097,6 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="139.7" x2="7.62" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="GND25" gate="1" pin="BAT_GND"/>
-<pinref part="STEP_DOWN" gate="G$1" pin="GND"/>
-<wire x1="30.48" y1="149.86" x2="12.7" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="149.86" x2="12.7" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="147.32" x2="7.62" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="236.22" y1="139.7" x2="236.22" y2="137.16" width="0.1524" layer="91"/>
