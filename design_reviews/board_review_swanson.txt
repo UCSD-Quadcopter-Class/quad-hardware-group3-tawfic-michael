@@ -1,0 +1,51 @@
+
+
+commit 0d50cbbeef07110baa93a807da9df0ee1c39ad51
+
+Power
+
+You've got long wires on VBAT and BAT_GND.  Come see me during class for how to fix.
+
+DRC
+
+Your battery conflicts with a bunch of other parts.  If you want, you can put it on the bottom.
+
+
+Motor holders
+
+ok.
+
+Pours
+
+ok
+	
+Antenna
+
+Your antena is surrounded by ground.  It shuold stick out from ground cage.
+
+
+Oscillator
+
+Your oscillator layout needs to match what's the red board.
+
+decoupling
+
+The decoupling caps for the IMU and icrocontroller need to be closer to the ICs.  Same goes for the caps between the IMU and ground.
+
+Voltage regulator
+
+ok
+
+Jumper
+
+Your jumper is under one of your props.  It's going to be hard to turn off your quad.
+
+Reset button
+
+You have no reset button.
+
+Misc
+
+The pads on your mosfet are too small.  See page 6 of the datasheet. 
+
+Get rid of the box around your board. 
